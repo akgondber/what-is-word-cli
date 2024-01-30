@@ -1,0 +1,100 @@
+{
+	"name": "what-is-word-cli",
+	"description": "CLI game where your task is to unscramble words by given definition",
+	"version": "1.0.0",
+	"homepage": "https://github.com/akgondber/what-is-word-cli",
+	"repository": "akgondber/what-is-word-cli",
+	"license": "MIT",
+	"bin": {
+		"what-is-word-cli": "dist/cli.js",
+		"what-is-word": "dist/cli.js",
+		"wiw": "dist/cli.js",
+		"whiswo": "dist/cli.js"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"build": "babel --out-dir=dist source --copy-files",
+		"dev": "babel --out-dir=dist --watch source",
+		"test": "prettier --check . && xo && ava",
+		"otest": "ava",
+		"lint": "xo",
+		"go": "node dist/cli.js",
+		"prettify": "prettier . --write",
+		"xofix": "xo --fix",
+		"check:suites": "node scripts/validate-suites.js",
+		"add-round": "node scripts/add-file.js"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"@inkjs/ui": "^1.0.0",
+		"@nanostores/react": "^0.7.1",
+		"delay": "^6.0.0",
+		"fdir": "^6.1.1",
+		"figures": "^6.0.1",
+		"ink": "^4.2.0",
+		"ink-gradient": "^3.0.0",
+		"ink-text-input": "^5.0.1",
+		"meow": "^12.0.1",
+		"nanostores": "^0.9.5",
+		"react": "^18.2.0",
+		"remeda": "^1.33.0",
+		"string-width": "^7.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.5",
+		"@babel/preset-react": "^7.22.5",
+		"ava": "^6.1.1",
+		"chalk": "^5.2.0",
+		"edit-json-file": "^1.8.0",
+		"enquirer": "^2.4.1",
+		"eslint-config-xo-react": "^0.27.0",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"import-jsx": "^5.0.0",
+		"ink-testing-library": "^3.0.0",
+		"prettier": "^2.8.8",
+		"vest": "^5.2.6",
+		"xo": "^0.54.2"
+	},
+	"ava": {
+		"environmentVariables": {
+			"NODE_NO_WARNINGS": "1"
+		},
+		"nodeArguments": [
+			"--loader=import-jsx"
+		]
+	},
+	"xo": {
+		"extends": "xo-react",
+		"prettier": true,
+		"rules": {
+			"new-cap": "off",
+			"react/prop-types": "off",
+			"unicorn/filename-case": "off",
+			"n/prefer-global/process": "off",
+			"unicorn/no-array-callback-reference": "off"
+		},
+		"ignores": [
+			"tmp"
+		]
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": true,
+		"singleQuote": true,
+		"quoteProps": "as-needed",
+		"bracketSpacing": false,
+		"arrowParens": "avoid",
+		"trailingComma": "all"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	}
+}
