@@ -1,7 +1,7 @@
 {
 	"name": "what-is-word-cli",
 	"description": "CLI game where your task is to unscramble words by given definition",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"homepage": "https://github.com/akgondber/what-is-word-cli",
 	"repository": "akgondber/what-is-word-cli",
 	"license": "MIT",
@@ -96,5 +96,18 @@
 		"presets": [
 			"@babel/preset-react"
 		]
-	}
+	},
+	"keywords": [
+		"animated",
+		"animation",
+		"cli",
+		"english",
+		"fun",
+		"game",
+		"practice",
+		"ui",
+		"vocabulary",
+		"word",
+		"words"
+	]
 }

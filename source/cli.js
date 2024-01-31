@@ -20,7 +20,7 @@ const cli = meow(
 		  $ what-is-word-cli
 		  $ what-is-word-cli --category fruits
 		  $ what-is-word-cli -c fruits
-		  $ what-is-word-cli --category words
+		  $ what-is-word-cli --category sports
 		  $ what-is-word-cli --topic literature
 		  $ what-is-word-cli --topic literature --subtopic mark-twain
 		  $ what-is-word-cli --topic literature --subtopic mark-twain --name is-he-living-or-is-he-dead

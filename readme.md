@@ -17,18 +17,20 @@ $ what-is-word-cli --help
     $ what-is-word-cli
 
   Options
-      --category Category to be used in the round
-      --topic Topic to be used in the round (some categories have topics others don't have)
-      --name Use concrete name for category
+    --category Category to be used in the game's round
+    --topic Topic to be used in the game's round (some categories have topics others don't have)
+    --subtopic Subtopic to be used (when using the topic option)
+    --name The name for a category (for a topic)
 
   Examples
     $ what-is-word-cli
-    $ what-is-word-cli --category literature
-    $ what-is-word-cli -c literature
-    $ what-is-word-cli --category words
-    $ what-is-word-cli --category literature --topic mark-twain
-    $ what-is-word-cli --category literature --topic mark-twain --name is-he-living-or-is-he-dead
-    $ what-is-word-cli -c literature -t mark-twain --name is-he-living-or-is-he-dead
+    $ what-is-word-cli --category fruits
+    $ what-is-word-cli -c fruits
+    $ what-is-word-cli --category sports
+    $ what-is-word-cli --topic literature
+    $ what-is-word-cli --topic literature --subtopic mark-twain
+    $ what-is-word-cli --topic literature --subtopic mark-twain --name is-he-living-or-is-he-dead
+    $ what-is-word-cli -t literature -s mark-twain -n is-he-living-or-is-he-dead
 ```
 
 ## Demo
