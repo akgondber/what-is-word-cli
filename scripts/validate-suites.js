@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import {create, test, each, enforce} from 'vest';
+import * as R from 'remeda';
 import enquirer from 'enquirer';
 
 const {prompt} = enquirer;
@@ -39,6 +40,14 @@ const suite = create((data = {}) => {
 });
 
 const content = JSON.parse(fs.readFileSync(file, 'utf8'));
+const {items} = content;
+const uniqueItems = R.uniqWith(items, R.equals);
+const lengthP = R.prop('length');
+
+if (lengthP(items) > lengthP(uniqueItems)) {
+	throw new Error('There are duplicate items found in the file.');
+}
+
 const validationResult = suite(content);
 
 if (validationResult.isValid()) {

@@ -1,7 +1,7 @@
 {
 	"name": "what-is-word-cli",
 	"description": "CLI game where your task is to unscramble words by given definition",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"homepage": "https://github.com/akgondber/what-is-word-cli",
 	"repository": "akgondber/what-is-word-cli",
 	"license": "MIT",
@@ -25,7 +25,7 @@
 		"prettify": "prettier . --write",
 		"xofix": "xo --fix",
 		"check:suites": "node scripts/validate-suites.js",
-		"add-round": "node scripts/add-file-from-class.js"
+		"add-round": "node scripts/add-file.js"
 	},
 	"files": [
 		"dist"
