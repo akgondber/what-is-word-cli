@@ -1,0 +1,49 @@
+{
+	"items": [
+		{
+			"word": "cotton",
+			"definition": "Thread or cloth made from the fibres of the cotton plant"
+		},
+		{
+			"word": "silk",
+			"definition": "A delicate, soft type of cloth made from a thread produced by silkworms, or the thread itself"
+		},
+		{
+			"word": "chiffon",
+			"definition": "A very thin, almost transparent cloth of silk or nylon"
+		},
+		{
+			"word": "crepe",
+			"definition": "Thin cloth with a surface that has wrinkles"
+		},
+		{
+			"word": "denim",
+			"definition": "A thick, strong cotton cloth, often blue in colour, used especially for making jeans"
+		},
+		{
+			"word": "lace",
+			"definition": "A decorative cloth made by twisting thin thread in delicate patterns with holes in them"
+		},
+		{
+			"word": "leather",
+			"definition": "Animal skin treated in order to preserve it, and used to make shoes, bags, clothes, equipment, etc."
+		},
+		{
+			"word": "linen",
+			"definition": "Strong cloth made from the fibres of the flax plant"
+		},
+		{
+			"word": "satin",
+			"definition": "A type of cloth, sometimes made of silk, that is smooth and shiny on one side but not on the other"
+		},
+		{
+			"word": "velvet",
+			"definition": "A cloth usually made from silk or cotton with a thick, soft surface"
+		},
+		{
+			"word": "wool",
+			"definition": "The soft, thick hair that grows on the bodies of sheep and some other animals"
+		}
+	],
+	"tags": ["typesoffabric", "fabric"]
+}

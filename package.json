@@ -1,7 +1,7 @@
 {
 	"name": "what-is-word-cli",
 	"description": "CLI game where your task is to unscramble words by given definition",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"homepage": "https://github.com/akgondber/what-is-word-cli",
 	"repository": "akgondber/what-is-word-cli",
 	"license": "MIT",
@@ -18,14 +18,14 @@
 	"scripts": {
 		"build": "babel --out-dir=dist source --copy-files",
 		"dev": "babel --out-dir=dist --watch source",
-		"test": "prettier --check . && xo && ava",
+		"test": "prettier --check . && xo",
 		"otest": "ava",
 		"lint": "xo",
 		"go": "node dist/cli.js",
 		"prettify": "prettier . --write",
 		"xofix": "xo --fix",
 		"check:suites": "node scripts/validate-suites.js",
-		"add-round": "node scripts/add-file.js"
+		"add-round": "node scripts/add-file-from-class.js"
 	},
 	"files": [
 		"dist"
@@ -53,7 +53,7 @@
 		"edit-json-file": "^1.8.0",
 		"enquirer": "^2.4.1",
 		"eslint-config-xo-react": "^0.27.0",
-		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react": "^7.34.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"import-jsx": "^5.0.0",
 		"ink-testing-library": "^3.0.0",

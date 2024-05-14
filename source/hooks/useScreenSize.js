@@ -5,8 +5,8 @@ export const useScreenSize = () => {
 	const {stdout} = useStdout();
 
 	const [size, setSize] = useState(() => ({
-		width: stdout.columns,
-		height: stdout.rows,
+		width: stdout.columns - 2,
+		height: stdout.rows - 2,
 	}));
 
 	useEffect(() => {
