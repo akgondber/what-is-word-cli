@@ -1,7 +1,7 @@
 {
 	"name": "what-is-word-cli",
 	"description": "CLI game where your task is to unscramble words by given definition",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"homepage": "https://github.com/akgondber/what-is-word-cli",
 	"repository": "akgondber/what-is-word-cli",
 	"license": "MIT",

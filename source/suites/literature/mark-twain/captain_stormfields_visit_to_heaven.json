@@ -1,0 +1,73 @@
+{
+	"items": [
+		{
+			"word": "comet",
+			"definition": "An object that moves around the sun, usually at a great distance from it, that is seen on rare occasions from the earth as a bright line in the sky"
+		},
+		{
+			"word": "lasso",
+			"definition": "A rope, formed into a ring at one end, that can be tightened by pulling the other end"
+		},
+		{
+			"word": "helm",
+			"definition": "the handle or wheel which controls the direction in which a ship or boat travels"
+		},
+		{
+			"word": "nimbus",
+			"definition": "Dark grey cloud that often produces rain or snow"
+		},
+		{
+			"word": "torch",
+			"definition": "A thick stick with material that burns tied to the top of it, used to give light"
+		},
+		{
+			"word": "deck",
+			"definition": "A flat area for walking on, built across the space between the sides of a boat"
+		},
+		{
+			"word": "brimstone",
+			"definition": "The chemical sulphur"
+		},
+		{
+			"word": "canvas",
+			"definition": "A piece of this cloth used by artists for painting on, usually with oil paints"
+		},
+		{
+			"word": "trumpet",
+			"definition": "A brass musical instrument consisting of a metal tube with one narrow end, into which the player blows, and one wide end. Three buttons are pressed in order to change notes"
+		},
+		{
+			"word": "slippers",
+			"definition": "A type of soft, comfortable shoe for wearing inside the house"
+		},
+		{
+			"word": "cargo",
+			"definition": "The goods carried by a ship, aircraft, or other large vehicle"
+		},
+		{
+			"word": "uncertainty",
+			"definition": "A situation in which something is not known, or something that is not known or certain"
+		},
+		{
+			"word": "darkness",
+			"definition": "The quality of being without light, or a situation in which there is little or no light"
+		},
+		{
+			"word": "horizon",
+			"definition": "The line at the farthest place that you can see, where the sky seems to touch the land or sea"
+		},
+		{
+			"word": "furnace",
+			"definition": "A piece of equipment for heating a building"
+		},
+		{
+			"word": "jewel",
+			"definition": "A precious stone that is used to decorate valuable objects"
+		},
+		{
+			"word": "constellation",
+			"definition": "Any of the groups of stars in the sky that seem from earth to form a pattern and have been given names"
+		}
+	],
+	"tags": ["ambrose", "bierce", "story"]
+}
