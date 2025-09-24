@@ -25,7 +25,8 @@
 		"prettify": "prettier . --write",
 		"xofix": "xo --fix",
 		"check:suites": "node scripts/validate-suites.js",
-		"add-round": "node scripts/add-file.js"
+		"add-round": "node scripts/add-file.js",
+		"bumpp": "bumpp"
 	},
 	"files": [
 		"dist"
@@ -49,6 +50,7 @@
 		"@babel/cli": "^7.22.5",
 		"@babel/preset-react": "^7.22.5",
 		"ava": "^6.1.1",
+		"bumpp": "^10.2.3",
 		"chalk": "^5.2.0",
 		"edit-json-file": "^1.8.0",
 		"enquirer": "^2.4.1",
